@@ -6,6 +6,11 @@
 },
 {
   "directory": "/home/wjz/CHAT/build/src/server",
+  "command": "/usr/bin/g++-10  -I/home/wjz/CHAT/thirdparty -I/home/wjz/CHAT/include -I/home/wjz/CHAT/include/server -g -g -o CMakeFiles/ChatServer.dir/chatservice.cpp.o -c /home/wjz/CHAT/src/server/chatservice.cpp",
+  "file": "/home/wjz/CHAT/src/server/chatservice.cpp"
+},
+{
+  "directory": "/home/wjz/CHAT/build/src/server",
   "command": "/usr/bin/g++-10  -I/home/wjz/CHAT/thirdparty -I/home/wjz/CHAT/include -I/home/wjz/CHAT/include/server -g -g -o CMakeFiles/ChatServer.dir/main.cpp.o -c /home/wjz/CHAT/src/server/main.cpp",
   "file": "/home/wjz/CHAT/src/server/main.cpp"
 }

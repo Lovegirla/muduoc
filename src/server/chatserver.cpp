@@ -1,4 +1,5 @@
 #include "chatserver.hpp"
+#include "chatservice.hpp"
 #include <functional>
 #include <string>
 #include <iostream>
@@ -33,7 +34,8 @@ void ChatServer::onMessage(const TcpConnectionPtr &conn,
     //数据反序列化
     json js = json::parse(buf);
     //达到的目的：完全解耦网络模块的代码和业务模块的代码
-    
+    auto msgHandler = ChatService::instance()->getHandler(js["msgid"].get<int>());
+    msgHandler(conn,js,time);
 }
 
 void ChatServer::start(){

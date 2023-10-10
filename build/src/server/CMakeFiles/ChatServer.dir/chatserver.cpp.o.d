@@ -1,7 +1,8 @@
 src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.o: \
  /home/wjz/CHAT/src/server/chatserver.cpp /usr/include/stdc-predef.h \
- /home/wjz/CHAT/include/chatserver.hpp /usr/include/muduo/net/TcpServer.h \
- /usr/include/muduo/base/Atomic.h /usr/include/muduo/base/noncopyable.h \
+ /home/wjz/CHAT/include/server/chatserver.hpp \
+ /usr/include/muduo/net/TcpServer.h /usr/include/muduo/base/Atomic.h \
+ /usr/include/muduo/base/noncopyable.h \
  /usr/lib/gcc/x86_64-linux-gnu/10/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
