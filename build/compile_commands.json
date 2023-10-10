@@ -1,7 +1,12 @@
 [
 {
-  "directory": "/home/wjz/CHAT/build/testmuduo",
-  "command": "/usr/bin/g++-10   -g;-g -g -o CMakeFiles/server.dir/muduo_server.cpp.o -c /home/wjz/CHAT/testmuduo/muduo_server.cpp",
-  "file": "/home/wjz/CHAT/testmuduo/muduo_server.cpp"
+  "directory": "/home/wjz/CHAT/build/src/server",
+  "command": "/usr/bin/g++-10  -I/home/wjz/CHAT/thirdparty -I/home/wjz/CHAT/include -I/home/wjz/CHAT/include/server -g -g -o CMakeFiles/ChatServer.dir/chatserver.cpp.o -c /home/wjz/CHAT/src/server/chatserver.cpp",
+  "file": "/home/wjz/CHAT/src/server/chatserver.cpp"
+},
+{
+  "directory": "/home/wjz/CHAT/build/src/server",
+  "command": "/usr/bin/g++-10  -I/home/wjz/CHAT/thirdparty -I/home/wjz/CHAT/include -I/home/wjz/CHAT/include/server -g -g -o CMakeFiles/ChatServer.dir/main.cpp.o -c /home/wjz/CHAT/src/server/main.cpp",
+  "file": "/home/wjz/CHAT/src/server/main.cpp"
 }
 ]
