@@ -1,0 +1,5 @@
+/home/wjz/CHAT/build/CMakeFiles/edit_cache.dir
+/home/wjz/CHAT/build/CMakeFiles/rebuild_cache.dir
+/home/wjz/CHAT/build/testmuduo/CMakeFiles/server.dir
+/home/wjz/CHAT/build/testmuduo/CMakeFiles/edit_cache.dir
+/home/wjz/CHAT/build/testmuduo/CMakeFiles/rebuild_cache.dir
