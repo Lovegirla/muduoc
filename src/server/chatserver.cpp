@@ -21,8 +21,10 @@ ChatServer::ChatServer(EventLoop *loop,
 void ChatServer::onConnection(const TcpConnectionPtr &conn)
 {
     //客户端断开连接
-    if(conn->connected()){
+    if(!conn->connected()){
+        // ChatService::instance()->clinentclose
         conn->shutdown();
+        
     }
 }
 
@@ -33,6 +35,7 @@ void ChatServer::onMessage(const TcpConnectionPtr &conn,
     string buf = buffer->retrieveAllAsString();
     //数据反序列化
     json js = json::parse(buf);
+    cout<< buf <<endl;
     //达到的目的：完全解耦网络模块的代码和业务模块的代码
     auto msgHandler = ChatService::instance()->getHandler(js["msgid"].get<int>());
     msgHandler(conn,js,time);
@@ -40,4 +43,5 @@ void ChatServer::onMessage(const TcpConnectionPtr &conn,
 
 void ChatServer::start(){
     _server.start();
+    cout<<"启动"<<endl;
 }

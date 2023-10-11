@@ -4,6 +4,8 @@
 #include <unordered_map>
 #include "json.hpp"
 #include <functional>
+#include "usermodel.hpp"
+
 using namespace std;
 using namespace muduo;
 using namespace muduo::net;
@@ -16,6 +18,8 @@ private:
     ChatService();
 
     unordered_map<int,MsgHandler> _msgHandlerMap;
+    UserModel _userModel;
+    
 public:
     static ChatService* instance();
     void login(const TcpConnectionPtr &conn,json &js,Timestamp time);

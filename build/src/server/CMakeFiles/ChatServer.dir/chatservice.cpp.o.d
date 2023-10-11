@@ -279,5 +279,8 @@ src/server/CMakeFiles/ChatServer.dir/chatservice.cpp.o: \
  /usr/include/c++/10/bits/locale_facets.tcc \
  /usr/include/c++/10/bits/basic_ios.tcc /usr/include/c++/10/ostream \
  /usr/include/c++/10/bits/ostream.tcc \
- /usr/include/c++/10/bits/istream.tcc /home/wjz/CHAT/include/public.hpp \
- /usr/include/muduo/base/Logging.h /usr/include/muduo/base/LogStream.h
+ /usr/include/c++/10/bits/istream.tcc \
+ /home/wjz/CHAT/include/server/usermodel.hpp \
+ /home/wjz/CHAT/include/server/user.hpp /home/wjz/CHAT/include/public.hpp \
+ /usr/include/muduo/base/Logging.h /usr/include/muduo/base/LogStream.h \
+ /home/wjz/CHAT/include/server/usermodel.hpp

@@ -247,24 +247,16 @@ src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.o: \
  /usr/include/c++/10/bits/erase_if.h /usr/include/muduo/net/EventLoop.h \
  /usr/include/c++/10/atomic /usr/include/muduo/base/Mutex.h \
  /usr/include/muduo/base/CurrentThread.h /usr/include/muduo/net/TimerId.h \
- /usr/include/c++/10/iostream /usr/include/c++/10/ostream \
- /usr/include/c++/10/ios /usr/include/c++/10/bits/basic_ios.h \
- /usr/include/c++/10/bits/locale_facets.h /usr/include/c++/10/cwctype \
- /usr/include/wctype.h /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
- /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_base.h \
- /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_inline.h \
- /usr/include/c++/10/bits/locale_facets.tcc \
- /usr/include/c++/10/bits/basic_ios.tcc \
- /usr/include/c++/10/bits/ostream.tcc /usr/include/c++/10/istream \
- /usr/include/c++/10/bits/istream.tcc /home/wjz/CHAT/thirdparty/json.hpp \
- /usr/include/c++/10/cassert /usr/include/c++/10/ciso646 \
- /usr/include/c++/10/numeric /usr/include/c++/10/bits/stl_numeric.h \
- /usr/include/c++/10/forward_list /usr/include/c++/10/bits/forward_list.h \
- /usr/include/c++/10/bits/forward_list.tcc \
+ /home/wjz/CHAT/include/server/chatservice.hpp \
  /usr/include/c++/10/unordered_map /usr/include/c++/10/bits/hashtable.h \
  /usr/include/c++/10/bits/hashtable_policy.h \
  /usr/include/c++/10/bits/enable_special_members.h \
- /usr/include/c++/10/bits/unordered_map.h /usr/include/c++/10/valarray \
+ /usr/include/c++/10/bits/unordered_map.h \
+ /home/wjz/CHAT/thirdparty/json.hpp /usr/include/c++/10/cassert \
+ /usr/include/c++/10/ciso646 /usr/include/c++/10/numeric \
+ /usr/include/c++/10/bits/stl_numeric.h /usr/include/c++/10/forward_list \
+ /usr/include/c++/10/bits/forward_list.h \
+ /usr/include/c++/10/bits/forward_list.tcc /usr/include/c++/10/valarray \
  /usr/include/c++/10/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
@@ -283,4 +275,15 @@ src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.o: \
  /usr/include/c++/10/bits/gslice.h \
  /usr/include/c++/10/bits/gslice_array.h \
  /usr/include/c++/10/bits/mask_array.h \
- /usr/include/c++/10/bits/indirect_array.h
+ /usr/include/c++/10/bits/indirect_array.h /usr/include/c++/10/istream \
+ /usr/include/c++/10/ios /usr/include/c++/10/bits/basic_ios.h \
+ /usr/include/c++/10/bits/locale_facets.h /usr/include/c++/10/cwctype \
+ /usr/include/wctype.h /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+ /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_base.h \
+ /usr/include/x86_64-linux-gnu/c++/10/bits/ctype_inline.h \
+ /usr/include/c++/10/bits/locale_facets.tcc \
+ /usr/include/c++/10/bits/basic_ios.tcc /usr/include/c++/10/ostream \
+ /usr/include/c++/10/bits/ostream.tcc \
+ /usr/include/c++/10/bits/istream.tcc \
+ /home/wjz/CHAT/include/server/usermodel.hpp \
+ /home/wjz/CHAT/include/server/user.hpp /usr/include/c++/10/iostream
